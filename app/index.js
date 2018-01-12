@@ -2,6 +2,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+// write your Color component here
+
 class Picker extends React.Component {
   render () {
     return (
