@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 
 // write your Color component here
 
-class Picker extends React.Component {
-  render() {
+const Picker = ()=> {
     return (
       <div id="container">
         <div id="navbar">
@@ -14,8 +13,7 @@ class Picker extends React.Component {
         <div id="colors-list">{/* colors go here */}</div>
       </div>
     );
-  }
-}
+};
 
 ReactDOM.render(
   <Picker />,
